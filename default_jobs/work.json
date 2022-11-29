@@ -1,0 +1,24 @@
+{
+	"JOB_NAME": "work",
+	"RESPECT_OFFICE_HOURS": true,
+	"DELAY_COMMAND_EXECUTION": true,
+	"COLLECT_METRICS": true,
+	"ENABLED": true,
+	"SCHEDULE": {
+		"PRODUCTION_PROFILE": {
+			"TYPE": "Hourly",
+			"INTERVAL": "1"
+		},
+		"DEBUG_PROFILE": {
+			"TYPE": "Minutes",
+			"INTERVAL": "1"
+		}
+	},
+	"INSTRUCTIONS": [{
+			"TYPE_TEXT": "!work"
+		},
+		{
+			"PRESS_AND_RELEASE": "enter"
+		}
+	]
+}

@@ -1,0 +1,3 @@
+"""
+Class to handle all typing/keyboard operations. Locking built in...
+"""
