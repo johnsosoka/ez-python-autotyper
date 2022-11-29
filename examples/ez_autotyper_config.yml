@@ -1,0 +1,17 @@
+general:
+  profile: DEBUG
+  log_location: /var/log/ez-python-autotyper.log
+  jobs_location: /home/john/code/ez-python-autotyper/default_jobs
+  office_hours:
+    hours_start: 6
+    hours_end: 24
+
+behavior:
+  sleep_seconds_between_commands: 1
+  text_write_interval: 0.25
+  job_execution:
+    delay_minimum_minutes: 2
+    delay_maximum_minutes: 10
+  number_generator:
+    minimum_number: 75
+    maximum_number: 240
